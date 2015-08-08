@@ -8,7 +8,7 @@
 
 `PXPinnedRotation` allows you to create views that use pinned rotation:
 
-<video src="pinned.webm" loop=true></video>
+![Pinned Rotation](pinned.gif)
 
 Your views will stay in place but rotate when the phone rotates like with the library and filter buttons in the Camera app in iOS.
 
