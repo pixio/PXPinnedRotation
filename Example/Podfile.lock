@@ -1,0 +1,14 @@
+PODS:
+  - PXPinnedRotation (0.1.1)
+
+DEPENDENCIES:
+  - PXPinnedRotation (from `../`)
+
+EXTERNAL SOURCES:
+  PXPinnedRotation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXPinnedRotation: 5abc269f7859f08420a51ba60875fc6780d64241
+
+COCOAPODS: 0.36.4
