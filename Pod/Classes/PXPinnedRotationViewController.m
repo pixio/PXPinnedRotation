@@ -55,12 +55,12 @@
     [super viewDidLoad];
     
     // do an initial layout pass to make sure we are laid out to the correct orientation
-    [[self rotationView] setOrientation:[self interfaceOrientation]];
+    [[self rotationView] setOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
     if (_onRotationBlock) {
-        _onRotationBlock([self interfaceOrientation]);
+        _onRotationBlock([[UIApplication sharedApplication] statusBarOrientation]);
     }
     if (_postRotationBlock) {
-        _postRotationBlock([self interfaceOrientation]);
+        _postRotationBlock([[UIApplication sharedApplication] statusBarOrientation]);
     }
 }
 
@@ -96,7 +96,7 @@
     if (SYSTEM_VERSION_LESS_THAN(@"8.0")) {
         // do something
         if (_onRotationBlock) {
-            _onRotationBlock([self interfaceOrientation]);
+            _onRotationBlock([[UIApplication sharedApplication] statusBarOrientation]);
         }
         
         [self.view.layer removeAnimationForKey:@"transform"];
@@ -148,7 +148,7 @@
         
 //        NSLog(@"on rotation");
         if (_onRotationBlock) {
-            _onRotationBlock([self interfaceOrientation]);
+            _onRotationBlock([[UIApplication sharedApplication] statusBarOrientation]);
         }
         
         // rotate views to what would have been the current orientation if rotation was not enabled
@@ -159,7 +159,7 @@
         halfPis[UIInterfaceOrientationPortraitUpsideDown] = 2;
         halfPis[UIInterfaceOrientationLandscapeRight] = 3;
         
-        int rots = (4 + (halfPis[[self interfaceOrientation]] - halfPis[previousOrientation])) % 4;
+        int rots = (4 + (halfPis[[[UIApplication sharedApplication] statusBarOrientation]] - halfPis[previousOrientation])) % 4;
         
         for (UIView* v in self.rotationView.viewsToAnimateRotation)
         {
@@ -168,7 +168,7 @@
         
         // change constraints to match new screen.
 //        NSLog(@"new constraints");
-        self.rotationView.orientation = [self interfaceOrientation];
+        self.rotationView.orientation = [[UIApplication sharedApplication] statusBarOrientation];
         
     } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
 //        NSLog(@"enabling animations");
@@ -179,7 +179,7 @@
         [UIView animateWithDuration:0.2 animations:^{
 //            NSLog(@"post rotation");
             if (_postRotationBlock) {
-                _postRotationBlock([self interfaceOrientation]);
+                _postRotationBlock([[UIApplication sharedApplication] statusBarOrientation]);
             }
             
             for (UIView* v in self.rotationView.viewsToAnimateRotation)
