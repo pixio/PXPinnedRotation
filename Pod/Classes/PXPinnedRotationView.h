@@ -48,11 +48,11 @@
  *  @seealso addViewToAnimate:
  *  @seealso addViewsToAnimate:
  */
-@property (nonatomic, readonly) NSArray * viewsToAnimateRotation;
+@property (nonatomic, readonly, nonnull) NSArray * viewsToAnimateRotation;
 
-- (void)addViewToAnimate:(UIView*)view;
-- (void)addViewsToAnimate:(NSArray*)views;
-- (void)removeViewToAnimate:(UIView*)view;
+- (void)addViewToAnimate:(nullable UIView*)view;
+- (void)addViewsToAnimate:(nullable NSArray*)views;
+- (void)removeViewToAnimate:(nullable UIView*)view;
 
 /**
  *  Calculate all view contraints outside of the UIKit update/layout loop.
@@ -68,7 +68,7 @@
  *
  *  @return an array of all constraints for the view.
  */
-- (NSArray*)calculateBaseConstraintsBeforeLayoutPass;
+- (nullable NSArray*)calculateBaseConstraintsBeforeLayoutPass;
 
 /**
  *  Manually trigger constraint generation and layout.
@@ -87,6 +87,6 @@
  *  @param constraint    the initial constraint to track
  *  @param identifier    a string to uniquely identify this constraint (with respect to others the caller may also register handlers for)
  */
-- (void)registerUpdateHandler:(void (^)(NSLayoutConstraint * constraint))updateHandler forConstraint:(NSLayoutConstraint*)constraint identifier:(NSString*)identifier;
+- (void)registerUpdateHandler:(nullable void (^)(NSLayoutConstraint * _Nullable constraint))updateHandler forConstraint:(nullable NSLayoutConstraint*)constraint identifier:(nullable NSString*)identifier;
 
 @end
