@@ -7,447 +7,353 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10C3CBC2012251546F9354CC /* PXPinnedRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A530CD134F1D7B587F6459 /* PXPinnedRotationViewController.h */; };
-		2F376710975CBEAC0C0FC72C /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E4093FCD09F57775DFF02 /* Pods-Tests-dummy.m */; };
-		3534A1A4A1249F146FE79107 /* PXPinnedRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D23B877AEBB56536C667944 /* PXPinnedRotationView.m */; };
-		4328D0A5205BBF9A6FB415EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE54E2C272E026CE64E397C0 /* Foundation.framework */; };
-		4C4A2C6035D756033216EB76 /* Pods-Tests-PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6878413A18A77F72692E9F7 /* Pods-Tests-PXPinnedRotation-dummy.m */; };
-		4D147CA426D858F524100528 /* PXPinnedRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ECE620AAC391337AAC5AAE /* PXPinnedRotationViewController.m */; };
-		5496C0836C998F757706AAD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7949EF9ACBCBA22906DFC41F /* UIKit.framework */; };
-		73237C43A7DA3AF4CF3520B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE54E2C272E026CE64E397C0 /* Foundation.framework */; };
-		7A6CF6E6F0BCF43EA63D1205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7949EF9ACBCBA22906DFC41F /* UIKit.framework */; };
-		92692A6A2BC1D146A16EBD9B /* PXPinnedRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D23B877AEBB56536C667944 /* PXPinnedRotationView.m */; };
-		9530852BD6D3098334E3E234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE54E2C272E026CE64E397C0 /* Foundation.framework */; };
-		A7579688EF25301B46449D3E /* PXPinnedRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A082EDBD75F1D9BFDAF5EB /* PXPinnedRotationView.h */; };
-		ACF6949404A1B74E254FCE58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE54E2C272E026CE64E397C0 /* Foundation.framework */; };
-		B40C5342139EEEE66CC109D1 /* PXPinnedRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A082EDBD75F1D9BFDAF5EB /* PXPinnedRotationView.h */; };
-		BF3B3801083E71F722CA04E3 /* PXPinnedRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ECE620AAC391337AAC5AAE /* PXPinnedRotationViewController.m */; };
-		C2562650771C915972DFEC53 /* Pods-PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ED52ED3DFF8BFE53422B1D /* Pods-PXPinnedRotation-dummy.m */; };
-		C834666C4C871A2E917648CD /* Pods-PXPinnedRotation-PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376CC2A69FE9DD5D57B1C8A /* Pods-PXPinnedRotation-PXPinnedRotation-dummy.m */; };
-		F50EC542F50D78E9C671682E /* PXPinnedRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A530CD134F1D7B587F6459 /* PXPinnedRotationViewController.h */; };
+		14A67C3D7F124F0A16E298AFEE464726 /* Pods-PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4CCDED60D69E147D10C5D03480183 /* Pods-PXPinnedRotation-dummy.m */; };
+		27502A7F12FCB5E794BE8583A3357AC2 /* PXPinnedRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3C0429E0BA68460BB34415423C4D /* PXPinnedRotationView.m */; };
+		2F0DC92386C7B0F59B5D50A9416D694E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		86785C2CC293DE48B4367B0A5B86092E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		993C7178AD8394C41D3369A9A60F2FE8 /* PXPinnedRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7432E5102CA91AA09F4047751BA98B /* PXPinnedRotationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86DD634166A311C17B489EEBD6D68E6 /* PXPinnedRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C7E5D41E93CE7359985A1AA2DFCD6 /* PXPinnedRotationViewController.m */; };
+		B3AE11AA71B43A3BC0BC5051C2FD1BCF /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D47BF4BEFDB679B7D89AE036819DCDA /* Pods-Tests-dummy.m */; };
+		BB54EE6FCDA4F3903D65433915BAD3F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		CC75B20A2BB84ED9521F997614DCD6E7 /* PXPinnedRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97139854B88262253CE9A5A6B391A0C0 /* PXPinnedRotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4151EBDEE1E7BE0468C165D46687BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E3875E2381878D40C304F7C0AEB8790D /* PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA6D64178E9EF55555828B16DB97F /* PXPinnedRotation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		218F88AC3A7DF06D14178BEE /* PBXContainerItemProxy */ = {
+		2791A7A624F3EF6125218673CFF04BDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84F22BE36325F34C3A0F928F /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81F31C0EEB9A10694D0A9C91;
-			remoteInfo = "Pods-Tests-PXPinnedRotation-PinnedRotation";
+			remoteGlobalIDString = 3F7756D40927D10FF82501A842734A66;
+			remoteInfo = PXPinnedRotation;
 		};
-		5DFC7C85522380711B006B59 /* PBXContainerItemProxy */ = {
+		7EDC6615C085C2AFA575837D7B8A41E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84F22BE36325F34C3A0F928F /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA3DFA671213F178EEBAA3A4;
-			remoteInfo = "Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation";
+			remoteGlobalIDString = 3F7756D40927D10FF82501A842734A66;
+			remoteInfo = PXPinnedRotation;
 		};
-		7F5665642DE0D0458B311D12 /* PBXContainerItemProxy */ = {
+		A7A1F8E5355A21A6ABC2F2B8641D1D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84F22BE36325F34C3A0F928F /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1CA0173E8F80E3D588413E0;
-			remoteInfo = "Pods-Tests-PXPinnedRotation";
-		};
-		C8AA3ABC9E2D5EAC32C8E131 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84F22BE36325F34C3A0F928F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 691362F91630D850A1BA3EDC;
-			remoteInfo = "Pods-PXPinnedRotation-PXPinnedRotation";
+			remoteGlobalIDString = 6C68188B18E1FA0B6ED74EFDD45B3598;
+			remoteInfo = "PXPinnedRotation-PXPinnedRotation";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FA972508BBE4D1D16732F1 /* libPods-Tests-PXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXPinnedRotation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0960F413B30BB53226E17F7C /* Pods-PXPinnedRotation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXPinnedRotation.debug.xcconfig"; sourceTree = "<group>"; };
-		0B07D026557597FD02DE886F /* Pods-PXPinnedRotation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXPinnedRotation.release.xcconfig"; sourceTree = "<group>"; };
-		0CB1B7B0A46045754672D135 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E8DC0611E2A882F8A21B78D /* Pods-PXPinnedRotation-PXPinnedRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXPinnedRotation-PXPinnedRotation.xcconfig"; sourceTree = "<group>"; };
-		17DC70A71BEC2BB23C35A1B3 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		212E4093FCD09F57775DFF02 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		24E0A21710341C89EA7555C6 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2CE5EF52FC984D4E5D7F6A67 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2D35205B77A6B4729A555425 /* Pods-Tests-PXPinnedRotation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXPinnedRotation-Private.xcconfig"; path = "../Pods-Tests-PXPinnedRotation/Pods-Tests-PXPinnedRotation-Private.xcconfig"; sourceTree = "<group>"; };
-		309EBDA95E3420344AD41AB8 /* libPods-PXPinnedRotation-PXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXPinnedRotation-PXPinnedRotation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B65ADAA9CEBDA67828A73BE /* Pods-PXPinnedRotation-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXPinnedRotation-environment.h"; sourceTree = "<group>"; };
-		3D23B877AEBB56536C667944 /* PXPinnedRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPinnedRotationView.m; sourceTree = "<group>"; };
-		4075469C3BC05F194C70AA4F /* Pods-PXPinnedRotation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXPinnedRotation-acknowledgements.plist"; sourceTree = "<group>"; };
-		50A082EDBD75F1D9BFDAF5EB /* PXPinnedRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPinnedRotationView.h; sourceTree = "<group>"; };
-		51FDFD74BEDAE8EDFC2DCE22 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		62A4DA5D08227BD2A7F3C81E /* Pods-Tests-PXPinnedRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXPinnedRotation.xcconfig"; path = "../Pods-Tests-PXPinnedRotation/Pods-Tests-PXPinnedRotation.xcconfig"; sourceTree = "<group>"; };
-		70DF10D2736C9589ECD5FED6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7949EF9ACBCBA22906DFC41F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8577BF319A63087A97DEC447 /* PinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9376CC2A69FE9DD5D57B1C8A /* Pods-PXPinnedRotation-PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXPinnedRotation-PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
-		A6878413A18A77F72692E9F7 /* Pods-Tests-PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXPinnedRotation-dummy.m"; path = "../Pods-Tests-PXPinnedRotation/Pods-Tests-PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
-		A9A530CD134F1D7B587F6459 /* PXPinnedRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPinnedRotationViewController.h; sourceTree = "<group>"; };
-		B2ED52ED3DFF8BFE53422B1D /* Pods-PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
-		B6E6B22A7B31F25555F9CCC6 /* Pods-Tests-PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXPinnedRotation-prefix.pch"; path = "../Pods-Tests-PXPinnedRotation/Pods-Tests-PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
-		B702B211FBC2CD98E88302C3 /* Pods-PXPinnedRotation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXPinnedRotation-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC37DB318B1FD55BA5E99E60 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCCFE931E5B5A883DDC55D8B /* Pods-PXPinnedRotation-PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXPinnedRotation-PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
-		C1A584B8702196EDB946CFB4 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		C2BEBD27A7AAEB62DF959893 /* PinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE54E2C272E026CE64E397C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1ABADED4EF63AF617573A16 /* libPods-PXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXPinnedRotation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6B44C02128B3BCE5BBE71D1 /* Pods-PXPinnedRotation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXPinnedRotation-resources.sh"; sourceTree = "<group>"; };
-		E7BC7D44FE617ED7956515FA /* Pods-PXPinnedRotation-PXPinnedRotation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXPinnedRotation-PXPinnedRotation-Private.xcconfig"; sourceTree = "<group>"; };
-		F7ECE620AAC391337AAC5AAE /* PXPinnedRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPinnedRotationViewController.m; sourceTree = "<group>"; };
+		03764A6014A687C58268DE01878C914D /* ResourceBundle-PXPinnedRotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXPinnedRotation-Info.plist"; sourceTree = "<group>"; };
+		0B7432E5102CA91AA09F4047751BA98B /* PXPinnedRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPinnedRotationViewController.h; sourceTree = "<group>"; };
+		0D04804E84DBD41952899F352817DFF1 /* Pods-PXPinnedRotation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXPinnedRotation-frameworks.sh"; sourceTree = "<group>"; };
+		0D9593054A08F9588A225759C3D668CE /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1D47BF4BEFDB679B7D89AE036819DCDA /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		36F724E65E5F4E377E69D7B858C3CEF0 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3AA57F4D9F9348D715521CE6ADA5E597 /* Pods-PXPinnedRotation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXPinnedRotation-resources.sh"; sourceTree = "<group>"; };
+		43B4CCDED60D69E147D10C5D03480183 /* Pods-PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
+		4B19F133F953E8E0B453DCBA62866CF6 /* Pods-PXPinnedRotation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXPinnedRotation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5342E3E87F4FEE503024BAFEEB09F80E /* Pods-PXPinnedRotation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXPinnedRotation.release.xcconfig"; sourceTree = "<group>"; };
+		56F5CA49E4EC9AA2A52C93390E7D6A75 /* PXPinnedRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPinnedRotation.xcconfig; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61CDF2CD327538ABF6A709EE53A946D3 /* libPods-PXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXPinnedRotation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633FBC05728CEE7EB6601F1A17C5D0DC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		67E0A35CF3E4425878917EC697724268 /* libPXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXPinnedRotation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A32ED82F05D194A17596BDC77B66BFE /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E9B3C0429E0BA68460BB34415423C4D /* PXPinnedRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPinnedRotationView.m; sourceTree = "<group>"; };
+		7C8AA6D64178E9EF55555828B16DB97F /* PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
+		7D07918A44A497F7C1F998876DF394BE /* Pods-PXPinnedRotation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXPinnedRotation-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DE5C1DC8CE67545369EDEDC58C746D7 /* PXPinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXPinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942B9B2874B8521525526CA6854585B9 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		97139854B88262253CE9A5A6B391A0C0 /* PXPinnedRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXPinnedRotationView.h; sourceTree = "<group>"; };
+		C6CD46CF6FE3503B8384FA0AB093465E /* Pods-PXPinnedRotation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXPinnedRotation.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC58783CACFFEE4E4D8E6B3C10F93A0 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF52E5BD5D93B5D6A74A97D518667118 /* PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
+		DE5C7E5D41E93CE7359985A1AA2DFCD6 /* PXPinnedRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXPinnedRotationViewController.m; sourceTree = "<group>"; };
+		FF779EDEB20B81605085541CE14E8B62 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1AE7CC556ED1CD91019138C8 /* Frameworks */ = {
+		0147624313A811C1BE6ACFF014C1F634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86785C2CC293DE48B4367B0A5B86092E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198AFE8C26F372E4F76CA2E94F758BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4151EBDEE1E7BE0468C165D46687BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C0867ED1491A19FABF0FCE5415710 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EAFF730DBD4001431F7272A /* Frameworks */ = {
+		DFCA7B403369729AABE918158E6F8A2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24C48650EDFA78F05C54245F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9530852BD6D3098334E3E234 /* Foundation.framework in Frameworks */,
-				5496C0836C998F757706AAD5 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		304DBBC1DE3C66801993756E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4328D0A5205BBF9A6FB415EA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50DBA888FCC584171044C107 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73237C43A7DA3AF4CF3520B2 /* Foundation.framework in Frameworks */,
-				7A6CF6E6F0BCF43EA63D1205 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7EEC88885A7D0D0229B7997 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF6949404A1B74E254FCE58 /* Foundation.framework in Frameworks */,
+				BB54EE6FCDA4F3903D65433915BAD3F9 /* Foundation.framework in Frameworks */,
+				2F0DC92386C7B0F59B5D50A9416D694E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54537B80478D61635312A43B /* PXPinnedRotation */ = {
+		087E35A2A1B5F3E40C0F583593EB33F7 /* Pods-PXPinnedRotation */ = {
 			isa = PBXGroup;
 			children = (
-				D4E3CD59AE1DA4ED181487E5 /* Pod */,
-				6AC33EB628D0926E9D5CCD19 /* Support Files */,
-			);
-			name = PXPinnedRotation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6AC33EB628D0926E9D5CCD19 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E8DC0611E2A882F8A21B78D /* Pods-PXPinnedRotation-PXPinnedRotation.xcconfig */,
-				E7BC7D44FE617ED7956515FA /* Pods-PXPinnedRotation-PXPinnedRotation-Private.xcconfig */,
-				9376CC2A69FE9DD5D57B1C8A /* Pods-PXPinnedRotation-PXPinnedRotation-dummy.m */,
-				BCCFE931E5B5A883DDC55D8B /* Pods-PXPinnedRotation-PXPinnedRotation-prefix.pch */,
-				62A4DA5D08227BD2A7F3C81E /* Pods-Tests-PXPinnedRotation.xcconfig */,
-				2D35205B77A6B4729A555425 /* Pods-Tests-PXPinnedRotation-Private.xcconfig */,
-				A6878413A18A77F72692E9F7 /* Pods-Tests-PXPinnedRotation-dummy.m */,
-				B6E6B22A7B31F25555F9CCC6 /* Pods-Tests-PXPinnedRotation-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-PXPinnedRotation-PXPinnedRotation";
-			sourceTree = "<group>";
-		};
-		6C178B253FC44B79FCDE4000 = {
-			isa = PBXGroup;
-			children = (
-				2CE5EF52FC984D4E5D7F6A67 /* Podfile */,
-				8F74B4E2D68D5EBBF3A7D101 /* Development Pods */,
-				F306082FE9FBE13EC2A6DE74 /* Frameworks */,
-				880BB5C9E6FF2A10F7751DA9 /* Products */,
-				B0CA1BD30D2F4B6DD0A8BD34 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		83CEC1EDD4261CF99D2C8B42 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CE54E2C272E026CE64E397C0 /* Foundation.framework */,
-				7949EF9ACBCBA22906DFC41F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		880BB5C9E6FF2A10F7751DA9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8577BF319A63087A97DEC447 /* PinnedRotation.bundle */,
-				C2BEBD27A7AAEB62DF959893 /* PinnedRotation.bundle */,
-				D1ABADED4EF63AF617573A16 /* libPods-PXPinnedRotation.a */,
-				309EBDA95E3420344AD41AB8 /* libPods-PXPinnedRotation-PXPinnedRotation.a */,
-				0CB1B7B0A46045754672D135 /* libPods-Tests.a */,
-				02FA972508BBE4D1D16732F1 /* libPods-Tests-PXPinnedRotation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8B0F75243C11FEC554B74425 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				50A082EDBD75F1D9BFDAF5EB /* PXPinnedRotationView.h */,
-				3D23B877AEBB56536C667944 /* PXPinnedRotationView.m */,
-				A9A530CD134F1D7B587F6459 /* PXPinnedRotationViewController.h */,
-				F7ECE620AAC391337AAC5AAE /* PXPinnedRotationViewController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		8F74B4E2D68D5EBBF3A7D101 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				54537B80478D61635312A43B /* PXPinnedRotation */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B0CA1BD30D2F4B6DD0A8BD34 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D794E2F362B3057353BB060D /* Pods-PXPinnedRotation */,
-				D98D7D15CC37BF1A5C7927DB /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D4E3CD59AE1DA4ED181487E5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8B0F75243C11FEC554B74425 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		D794E2F362B3057353BB060D /* Pods-PXPinnedRotation */ = {
-			isa = PBXGroup;
-			children = (
-				B702B211FBC2CD98E88302C3 /* Pods-PXPinnedRotation-acknowledgements.markdown */,
-				4075469C3BC05F194C70AA4F /* Pods-PXPinnedRotation-acknowledgements.plist */,
-				B2ED52ED3DFF8BFE53422B1D /* Pods-PXPinnedRotation-dummy.m */,
-				3B65ADAA9CEBDA67828A73BE /* Pods-PXPinnedRotation-environment.h */,
-				E6B44C02128B3BCE5BBE71D1 /* Pods-PXPinnedRotation-resources.sh */,
-				0960F413B30BB53226E17F7C /* Pods-PXPinnedRotation.debug.xcconfig */,
-				0B07D026557597FD02DE886F /* Pods-PXPinnedRotation.release.xcconfig */,
+				4B19F133F953E8E0B453DCBA62866CF6 /* Pods-PXPinnedRotation-acknowledgements.markdown */,
+				7D07918A44A497F7C1F998876DF394BE /* Pods-PXPinnedRotation-acknowledgements.plist */,
+				43B4CCDED60D69E147D10C5D03480183 /* Pods-PXPinnedRotation-dummy.m */,
+				0D04804E84DBD41952899F352817DFF1 /* Pods-PXPinnedRotation-frameworks.sh */,
+				3AA57F4D9F9348D715521CE6ADA5E597 /* Pods-PXPinnedRotation-resources.sh */,
+				C6CD46CF6FE3503B8384FA0AB093465E /* Pods-PXPinnedRotation.debug.xcconfig */,
+				5342E3E87F4FEE503024BAFEEB09F80E /* Pods-PXPinnedRotation.release.xcconfig */,
 			);
 			name = "Pods-PXPinnedRotation";
 			path = "Target Support Files/Pods-PXPinnedRotation";
 			sourceTree = "<group>";
 		};
-		D98D7D15CC37BF1A5C7927DB /* Pods-Tests */ = {
+		0B7D6ACB595DA57365A60EF096FD0A56 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				17DC70A71BEC2BB23C35A1B3 /* Pods-Tests-acknowledgements.markdown */,
-				BC37DB318B1FD55BA5E99E60 /* Pods-Tests-acknowledgements.plist */,
-				212E4093FCD09F57775DFF02 /* Pods-Tests-dummy.m */,
-				C1A584B8702196EDB946CFB4 /* Pods-Tests-environment.h */,
-				51FDFD74BEDAE8EDFC2DCE22 /* Pods-Tests-resources.sh */,
-				70DF10D2736C9589ECD5FED6 /* Pods-Tests.debug.xcconfig */,
-				24E0A21710341C89EA7555C6 /* Pods-Tests.release.xcconfig */,
+				087E35A2A1B5F3E40C0F583593EB33F7 /* Pods-PXPinnedRotation */,
+				509B00C6A4885D1AD62FC881C1F2450B /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C9EF1A5F066910BBC1021F499ADF524 /* PXPinnedRotation */ = {
+			isa = PBXGroup;
+			children = (
+				84EAFF4201EDCB1644F60A2566FC704B /* Pod */,
+				53C2A42D29D083A68307B5714715007E /* Support Files */,
+			);
+			name = PXPinnedRotation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		509B00C6A4885D1AD62FC881C1F2450B /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A32ED82F05D194A17596BDC77B66BFE /* Pods-Tests-acknowledgements.markdown */,
+				CEC58783CACFFEE4E4D8E6B3C10F93A0 /* Pods-Tests-acknowledgements.plist */,
+				1D47BF4BEFDB679B7D89AE036819DCDA /* Pods-Tests-dummy.m */,
+				0D9593054A08F9588A225759C3D668CE /* Pods-Tests-frameworks.sh */,
+				633FBC05728CEE7EB6601F1A17C5D0DC /* Pods-Tests-resources.sh */,
+				942B9B2874B8521525526CA6854585B9 /* Pods-Tests.debug.xcconfig */,
+				36F724E65E5F4E377E69D7B858C3CEF0 /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		F306082FE9FBE13EC2A6DE74 /* Frameworks */ = {
+		53C2A42D29D083A68307B5714715007E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83CEC1EDD4261CF99D2C8B42 /* iOS */,
+				56F5CA49E4EC9AA2A52C93390E7D6A75 /* PXPinnedRotation.xcconfig */,
+				7C8AA6D64178E9EF55555828B16DB97F /* PXPinnedRotation-dummy.m */,
+				CF52E5BD5D93B5D6A74A97D518667118 /* PXPinnedRotation-prefix.pch */,
+				03764A6014A687C58268DE01878C914D /* ResourceBundle-PXPinnedRotation-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXPinnedRotation";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D859055DAC6D2D940191C8A36D5CE259 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C175720F08829D551B2801202643D811 /* Products */,
+				0B7D6ACB595DA57365A60EF096FD0A56 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84EAFF4201EDCB1644F60A2566FC704B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDF0003D11D7F8EE35CDF0C444B37409 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BDF0003D11D7F8EE35CDF0C444B37409 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97139854B88262253CE9A5A6B391A0C0 /* PXPinnedRotationView.h */,
+				6E9B3C0429E0BA68460BB34415423C4D /* PXPinnedRotationView.m */,
+				0B7432E5102CA91AA09F4047751BA98B /* PXPinnedRotationViewController.h */,
+				DE5C7E5D41E93CE7359985A1AA2DFCD6 /* PXPinnedRotationViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C175720F08829D551B2801202643D811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61CDF2CD327538ABF6A709EE53A946D3 /* libPods-PXPinnedRotation.a */,
+				FF779EDEB20B81605085541CE14E8B62 /* libPods-Tests.a */,
+				67E0A35CF3E4425878917EC697724268 /* libPXPinnedRotation.a */,
+				8DE5C1DC8CE67545369EDEDC58C746D7 /* PXPinnedRotation.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D859055DAC6D2D940191C8A36D5CE259 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EF1A5F066910BBC1021F499ADF524 /* PXPinnedRotation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E5FCF891428342A4F23E2E5 /* Headers */ = {
+		49C5243C96B94B09883090528519E716 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7579688EF25301B46449D3E /* PXPinnedRotationView.h in Headers */,
-				F50EC542F50D78E9C671682E /* PXPinnedRotationViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A350C8558B18B47612141C4B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B40C5342139EEEE66CC109D1 /* PXPinnedRotationView.h in Headers */,
-				10C3CBC2012251546F9354CC /* PXPinnedRotationViewController.h in Headers */,
+				CC75B20A2BB84ED9521F997614DCD6E7 /* PXPinnedRotationView.h in Headers */,
+				993C7178AD8394C41D3369A9A60F2FE8 /* PXPinnedRotationViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5151ECB4BE01E65A679523BF /* Pods-Tests */ = {
+		3F7756D40927D10FF82501A842734A66 /* PXPinnedRotation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BC142DE0732FCDCBDEE8CB4 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 6C8071CAB1A77F4E392F39AF485E588E /* Build configuration list for PBXNativeTarget "PXPinnedRotation" */;
 			buildPhases = (
-				6FD76F1D6F4EF03ABA90314B /* Sources */,
-				304DBBC1DE3C66801993756E /* Frameworks */,
+				AACF5D996C8CB3962DB4E077C56CA181 /* Sources */,
+				DFCA7B403369729AABE918158E6F8A2E /* Frameworks */,
+				49C5243C96B94B09883090528519E716 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1AFCB9B46446D561EDA03CF1 /* PBXTargetDependency */,
+				51107FCE992803692BA8BA419EA15B25 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 0CB1B7B0A46045754672D135 /* libPods-Tests.a */;
+			name = PXPinnedRotation;
+			productName = PXPinnedRotation;
+			productReference = 67E0A35CF3E4425878917EC697724268 /* libPXPinnedRotation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		691362F91630D850A1BA3EDC /* Pods-PXPinnedRotation-PXPinnedRotation */ = {
+		6C68188B18E1FA0B6ED74EFDD45B3598 /* PXPinnedRotation-PXPinnedRotation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8CE35A96E4FDDA052D06B43 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation-PXPinnedRotation" */;
+			buildConfigurationList = C11EE409F916102E37CE6A438869D1AB /* Build configuration list for PBXNativeTarget "PXPinnedRotation-PXPinnedRotation" */;
 			buildPhases = (
-				D0422569F665A01A1A84A376 /* Sources */,
-				24C48650EDFA78F05C54245F /* Frameworks */,
-				A350C8558B18B47612141C4B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				25BC385A1529F385068229B1 /* PBXTargetDependency */,
-			);
-			name = "Pods-PXPinnedRotation-PXPinnedRotation";
-			productName = "Pods-PXPinnedRotation-PXPinnedRotation";
-			productReference = 309EBDA95E3420344AD41AB8 /* libPods-PXPinnedRotation-PXPinnedRotation.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		81F31C0EEB9A10694D0A9C91 /* Pods-Tests-PXPinnedRotation-PinnedRotation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03CE630E8EB08B8F15607C30 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXPinnedRotation-PinnedRotation" */;
-			buildPhases = (
-				428520ECA4D565A1D353607B /* Sources */,
-				1EAFF730DBD4001431F7272A /* Frameworks */,
-				086454D1E51DEDA518CA38E6 /* Resources */,
+				113E0DE0250C0FA0FE78A212D0E948C1 /* Sources */,
+				9E8C0867ED1491A19FABF0FCE5415710 /* Frameworks */,
+				07CD32E3F390BCCA27D847E51DE6ED8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Tests-PXPinnedRotation-PinnedRotation";
-			productName = "Pods-Tests-PXPinnedRotation-PinnedRotation";
-			productReference = 8577BF319A63087A97DEC447 /* PinnedRotation.bundle */;
+			name = "PXPinnedRotation-PXPinnedRotation";
+			productName = "PXPinnedRotation-PXPinnedRotation";
+			productReference = 8DE5C1DC8CE67545369EDEDC58C746D7 /* PXPinnedRotation.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		C1CA0173E8F80E3D588413E0 /* Pods-Tests-PXPinnedRotation */ = {
+		859210CA341D1CD8B023D5D3E4C51A36 /* Pods-PXPinnedRotation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D27DF0EF0CCA73BC43DC6611 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXPinnedRotation" */;
+			buildConfigurationList = B2B6E9ECCE5D34E4D728072603144884 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation" */;
 			buildPhases = (
-				4CB0F21DA115F710594E0C0A /* Sources */,
-				50DBA888FCC584171044C107 /* Frameworks */,
-				3E5FCF891428342A4F23E2E5 /* Headers */,
+				313F4F702CA6F6A96037B8B9BB412A9E /* Sources */,
+				198AFE8C26F372E4F76CA2E94F758BD0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2687C4F40FA1BA5E72F0155B /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-PXPinnedRotation";
-			productName = "Pods-Tests-PXPinnedRotation";
-			productReference = 02FA972508BBE4D1D16732F1 /* libPods-Tests-PXPinnedRotation.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D19755CBA94D17265B7CBF09 /* Pods-PXPinnedRotation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 269A76557A1D60E41791E947 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation" */;
-			buildPhases = (
-				A4ABD768F81263650F351341 /* Sources */,
-				D7EEC88885A7D0D0229B7997 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				851BC0ED380D6A8D5CFF91C9 /* PBXTargetDependency */,
+				049949D23BA1A92B9A6E731A78734DA6 /* PBXTargetDependency */,
 			);
 			name = "Pods-PXPinnedRotation";
 			productName = "Pods-PXPinnedRotation";
-			productReference = D1ABADED4EF63AF617573A16 /* libPods-PXPinnedRotation.a */;
+			productReference = 61CDF2CD327538ABF6A709EE53A946D3 /* libPods-PXPinnedRotation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DA3DFA671213F178EEBAA3A4 /* Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation */ = {
+		C6D59E27D0F7413E06C198CED45B3479 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F952F20F08B06CD3656E60A9 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation" */;
+			buildConfigurationList = 7A1A43672EDFACDEA59EEDAD73C82684 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				CC55B14FC2AED17F2152CB6D /* Sources */,
-				1AE7CC556ED1CD91019138C8 /* Frameworks */,
-				A2260CED4377D16487C899EB /* Resources */,
+				EFDCD79AC7C05F975225261BFB758F5A /* Sources */,
+				0147624313A811C1BE6ACFF014C1F634 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				684B9EFD72F4049C8BA28AFEB4F34D57 /* PBXTargetDependency */,
 			);
-			name = "Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation";
-			productName = "Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation";
-			productReference = C2BEBD27A7AAEB62DF959893 /* PinnedRotation.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = FF779EDEB20B81605085541CE14E8B62 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84F22BE36325F34C3A0F928F /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
 			};
-			buildConfigurationList = FC401986A62261D7F4C8E45A /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6C178B253FC44B79FCDE4000;
-			productRefGroup = 880BB5C9E6FF2A10F7751DA9 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C175720F08829D551B2801202643D811 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D19755CBA94D17265B7CBF09 /* Pods-PXPinnedRotation */,
-				691362F91630D850A1BA3EDC /* Pods-PXPinnedRotation-PXPinnedRotation */,
-				DA3DFA671213F178EEBAA3A4 /* Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation */,
-				5151ECB4BE01E65A679523BF /* Pods-Tests */,
-				C1CA0173E8F80E3D588413E0 /* Pods-Tests-PXPinnedRotation */,
-				81F31C0EEB9A10694D0A9C91 /* Pods-Tests-PXPinnedRotation-PinnedRotation */,
+				859210CA341D1CD8B023D5D3E4C51A36 /* Pods-PXPinnedRotation */,
+				C6D59E27D0F7413E06C198CED45B3479 /* Pods-Tests */,
+				3F7756D40927D10FF82501A842734A66 /* PXPinnedRotation */,
+				6C68188B18E1FA0B6ED74EFDD45B3598 /* PXPinnedRotation-PXPinnedRotation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		086454D1E51DEDA518CA38E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2260CED4377D16487C899EB /* Resources */ = {
+		07CD32E3F390BCCA27D847E51DE6ED8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,128 +363,217 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		428520ECA4D565A1D353607B /* Sources */ = {
+		113E0DE0250C0FA0FE78A212D0E948C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CB0F21DA115F710594E0C0A /* Sources */ = {
+		313F4F702CA6F6A96037B8B9BB412A9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92692A6A2BC1D146A16EBD9B /* PXPinnedRotationView.m in Sources */,
-				BF3B3801083E71F722CA04E3 /* PXPinnedRotationViewController.m in Sources */,
-				4C4A2C6035D756033216EB76 /* Pods-Tests-PXPinnedRotation-dummy.m in Sources */,
+				14A67C3D7F124F0A16E298AFEE464726 /* Pods-PXPinnedRotation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FD76F1D6F4EF03ABA90314B /* Sources */ = {
+		AACF5D996C8CB3962DB4E077C56CA181 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F376710975CBEAC0C0FC72C /* Pods-Tests-dummy.m in Sources */,
+				E3875E2381878D40C304F7C0AEB8790D /* PXPinnedRotation-dummy.m in Sources */,
+				27502A7F12FCB5E794BE8583A3357AC2 /* PXPinnedRotationView.m in Sources */,
+				A86DD634166A311C17B489EEBD6D68E6 /* PXPinnedRotationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4ABD768F81263650F351341 /* Sources */ = {
+		EFDCD79AC7C05F975225261BFB758F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2562650771C915972DFEC53 /* Pods-PXPinnedRotation-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC55B14FC2AED17F2152CB6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0422569F665A01A1A84A376 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3534A1A4A1249F146FE79107 /* PXPinnedRotationView.m in Sources */,
-				4D147CA426D858F524100528 /* PXPinnedRotationViewController.m in Sources */,
-				C834666C4C871A2E917648CD /* Pods-PXPinnedRotation-PXPinnedRotation-dummy.m in Sources */,
+				B3AE11AA71B43A3BC0BC5051C2FD1BCF /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1AFCB9B46446D561EDA03CF1 /* PBXTargetDependency */ = {
+		049949D23BA1A92B9A6E731A78734DA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXPinnedRotation";
-			target = C1CA0173E8F80E3D588413E0 /* Pods-Tests-PXPinnedRotation */;
-			targetProxy = 7F5665642DE0D0458B311D12 /* PBXContainerItemProxy */;
+			name = PXPinnedRotation;
+			target = 3F7756D40927D10FF82501A842734A66 /* PXPinnedRotation */;
+			targetProxy = 2791A7A624F3EF6125218673CFF04BDD /* PBXContainerItemProxy */;
 		};
-		25BC385A1529F385068229B1 /* PBXTargetDependency */ = {
+		51107FCE992803692BA8BA419EA15B25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation";
-			target = DA3DFA671213F178EEBAA3A4 /* Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation */;
-			targetProxy = 5DFC7C85522380711B006B59 /* PBXContainerItemProxy */;
+			name = "PXPinnedRotation-PXPinnedRotation";
+			target = 6C68188B18E1FA0B6ED74EFDD45B3598 /* PXPinnedRotation-PXPinnedRotation */;
+			targetProxy = A7A1F8E5355A21A6ABC2F2B8641D1D98 /* PBXContainerItemProxy */;
 		};
-		2687C4F40FA1BA5E72F0155B /* PBXTargetDependency */ = {
+		684B9EFD72F4049C8BA28AFEB4F34D57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXPinnedRotation-PinnedRotation";
-			target = 81F31C0EEB9A10694D0A9C91 /* Pods-Tests-PXPinnedRotation-PinnedRotation */;
-			targetProxy = 218F88AC3A7DF06D14178BEE /* PBXContainerItemProxy */;
-		};
-		851BC0ED380D6A8D5CFF91C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PXPinnedRotation-PXPinnedRotation";
-			target = 691362F91630D850A1BA3EDC /* Pods-PXPinnedRotation-PXPinnedRotation */;
-			targetProxy = C8AA3ABC9E2D5EAC32C8E131 /* PBXContainerItemProxy */;
+			name = PXPinnedRotation;
+			target = 3F7756D40927D10FF82501A842734A66 /* PXPinnedRotation */;
+			targetProxy = 7EDC6615C085C2AFA575837D7B8A41E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DCA1A85104A5AF73849B599 /* Debug */ = {
+		2541377F8162801415C0B3C9BD886C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F5CA49E4EC9AA2A52C93390E7D6A75 /* PXPinnedRotation.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PinnedRotation;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		0FB0F1AF62D161F54609E50F /* Release */ = {
+		3315D2B5EE85E3B946F4540DA47CEBE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F5CA49E4EC9AA2A52C93390E7D6A75 /* PXPinnedRotation.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PinnedRotation;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		10D73BA6E6DC75B6B728B0BE /* Debug */ = {
+		54791A1112DE92E24A8DD505DFEACA34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0960F413B30BB53226E17F7C /* Pods-PXPinnedRotation.debug.xcconfig */;
+			baseConfigurationReference = 942B9B2874B8521525526CA6854585B9 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		164EEB621F75A379EE84EE94 /* Debug */ = {
+		6A9E96EFAD9B9EE4B70265E7AAE37C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F5CA49E4EC9AA2A52C93390E7D6A75 /* PXPinnedRotation.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXPinnedRotation";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXPinnedRotation/ResourceBundle-PXPinnedRotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXPinnedRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		78BCFEC28B19479B1421F66FF07FD3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CD46CF6FE3503B8384FA0AB093465E /* Pods-PXPinnedRotation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8645D0076CC7F5D11CC372798F773900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F5CA49E4EC9AA2A52C93390E7D6A75 /* PXPinnedRotation.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXPinnedRotation";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXPinnedRotation/ResourceBundle-PXPinnedRotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXPinnedRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BAFCA26E96CE7849452585D65D1D2ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F724E65E5F4E377E69D7B858C3CEF0 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1DF5D16D790F11CEA13F239461602C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -588,15 +583,22 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -607,135 +609,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		38FBEF1DB43DB41165FF384D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PinnedRotation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		89C9AA02AFE849D1F0702826 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7BC7D44FE617ED7956515FA /* Pods-PXPinnedRotation-PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXPinnedRotation-PXPinnedRotation/Pods-PXPinnedRotation-PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B65E552621D003B94991B457 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PinnedRotation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		BC6E1F7279863806608BBC1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24E0A21710341C89EA7555C6 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C2EEDB88E68E6379095C8D14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7BC7D44FE617ED7956515FA /* Pods-PXPinnedRotation-PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXPinnedRotation-PXPinnedRotation/Pods-PXPinnedRotation-PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CB6702336E5E2DC24B64A434 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B07D026557597FD02DE886F /* Pods-PXPinnedRotation.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		CEB722A23177C9163163904D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D35205B77A6B4729A555425 /* Pods-Tests-PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXPinnedRotation/Pods-Tests-PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EF6E377A68FC80B691DE938B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D35205B77A6B4729A555425 /* Pods-Tests-PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXPinnedRotation/Pods-Tests-PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F6722D4AF4E8697041D6CD78 /* Release */ = {
+		F9248D5D3503D3DE930856DB328D8ACD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -745,110 +631,108 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F70D1057E841C6C70861E40F /* Debug */ = {
+		FC8936B18ED7A358672E4AAF846E6918 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70DF10D2736C9589ECD5FED6 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 5342E3E87F4FEE503024BAFEEB09F80E /* Pods-PXPinnedRotation.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03CE630E8EB08B8F15607C30 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXPinnedRotation-PinnedRotation" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DCA1A85104A5AF73849B599 /* Debug */,
-				38FBEF1DB43DB41165FF384D /* Release */,
+				D1DF5D16D790F11CEA13F239461602C5 /* Debug */,
+				F9248D5D3503D3DE930856DB328D8ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269A76557A1D60E41791E947 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation" */ = {
+		6C8071CAB1A77F4E392F39AF485E588E /* Build configuration list for PBXNativeTarget "PXPinnedRotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10D73BA6E6DC75B6B728B0BE /* Debug */,
-				CB6702336E5E2DC24B64A434 /* Release */,
+				2541377F8162801415C0B3C9BD886C3C /* Debug */,
+				3315D2B5EE85E3B946F4540DA47CEBE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BC142DE0732FCDCBDEE8CB4 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		7A1A43672EDFACDEA59EEDAD73C82684 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F70D1057E841C6C70861E40F /* Debug */,
-				BC6E1F7279863806608BBC1D /* Release */,
+				54791A1112DE92E24A8DD505DFEACA34 /* Debug */,
+				BAFCA26E96CE7849452585D65D1D2ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8CE35A96E4FDDA052D06B43 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation-PXPinnedRotation" */ = {
+		B2B6E9ECCE5D34E4D728072603144884 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2EEDB88E68E6379095C8D14 /* Debug */,
-				89C9AA02AFE849D1F0702826 /* Release */,
+				78BCFEC28B19479B1421F66FF07FD3DC /* Debug */,
+				FC8936B18ED7A358672E4AAF846E6918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27DF0EF0CCA73BC43DC6611 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXPinnedRotation" */ = {
+		C11EE409F916102E37CE6A438869D1AB /* Build configuration list for PBXNativeTarget "PXPinnedRotation-PXPinnedRotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEB722A23177C9163163904D /* Debug */,
-				EF6E377A68FC80B691DE938B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F952F20F08B06CD3656E60A9 /* Build configuration list for PBXNativeTarget "Pods-PXPinnedRotation-PXPinnedRotation-PinnedRotation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B65E552621D003B94991B457 /* Debug */,
-				0FB0F1AF62D161F54609E50F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC401986A62261D7F4C8E45A /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				164EEB621F75A379EE84EE94 /* Debug */,
-				F6722D4AF4E8697041D6CD78 /* Release */,
+				8645D0076CC7F5D11CC372798F773900 /* Debug */,
+				6A9E96EFAD9B9EE4B70265E7AAE37C00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84F22BE36325F34C3A0F928F /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

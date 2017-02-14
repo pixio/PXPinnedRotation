@@ -1,12 +1,10 @@
 source 'git@git.pixio.com:pixio-libraries/specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'PXPinnedRotation', :exclusive => true do
+target 'PXPinnedRotation' do
   pod "PXPinnedRotation", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "PXPinnedRotation", :path => "../"
-
-
 end
