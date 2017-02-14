@@ -37,16 +37,16 @@
  */
 @interface PXPinnedRotationViewController : UIViewController
 
-- (PXPinnedRotationView*)rotationView;
+- (nullable PXPinnedRotationView*)rotationView;
 
 /**
  *  Block to be run when rotation begins.  Will not animate as rotation animations are disabled.
  */
-@property (nonatomic, copy) void (^onRotationBlock)(UIInterfaceOrientation newOrientation);
+@property (nonatomic, copy, nullable) void (^onRotationBlock)(UIInterfaceOrientation newOrientation);
 
 /**
  *  Block to run when the rotation ends.  Will be animated.
  */
-@property (nonatomic, copy) void (^postRotationBlock)(UIInterfaceOrientation newOrientation);
+@property (nonatomic, copy, nullable) void (^postRotationBlock)(UIInterfaceOrientation newOrientation);
 
 @end

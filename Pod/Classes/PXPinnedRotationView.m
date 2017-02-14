@@ -40,7 +40,7 @@
     NSInteger _lastAppliedVersion;
 }
 
-- (id) initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame
 {
     if ((self = [super initWithFrame:frame])) {
         _constraintHandlers = [NSMutableDictionary dictionary];
@@ -55,7 +55,7 @@
     return _viewsToAnimate;
 }
 
-- (void) setOrientation:(UIInterfaceOrientation)orientation
+- (void)setOrientation:(UIInterfaceOrientation)orientation
 {
     _orientation = orientation;
     [self manuallyStartLayoutPass];
@@ -241,7 +241,7 @@
     return rotatedConstraints;
 }
 
-- (void) updateConstraints
+- (void)updateConstraints
 {
     if (_lastAppliedVersion != _contraintVersion) {
         _lastAppliedVersion = _contraintVersion;
